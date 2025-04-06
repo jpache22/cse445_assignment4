@@ -26,7 +26,7 @@
     </Address>
   </Hotel>
 
-  <Hotel +Rating="3.8">
+  <Hotel _Rating="3.8">
     <Name>Albany Airport Inn</Name>
     <Phone>+1 518-458-1000</Phone>
     <Address _NearestAirport="ALB">
