@@ -7,17 +7,17 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Name" type="xs:string"/>
-              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Number" type="xs:int"/>
-                    <xs:element name="Street" type="xs:string"/>
-                    <xs:element name="City" type="xs:string"/>
-                    <xs:element name="State" type="xs:string"/>
-                    <xs:element name="Zip" type="xs:string"/>
+                    <xs:element name="Number" type="xs:int" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
                   </xs:sequence>
-                  <xs:attribute name="_NearstAirport" type="xs:string" use="required"/>
+                  <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
