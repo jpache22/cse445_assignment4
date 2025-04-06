@@ -34,6 +34,7 @@
       <City>San Jose</City>
       <State>CA</State>
       <Zip>95131</Zip>
+    </Address>
   </Hotel>
 
   <Hotel Rating="3.8">
@@ -134,7 +135,6 @@
       <City>Milwaukee</City>
       <State>WI</State>
       <Zip>53207</Zip>
-    </Address>
   </Hotel>
 
 </Hotel>
