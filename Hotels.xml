@@ -1,4 +1,4 @@
-<Hotels xmlns="ConsoleApp1">
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ConsoleApp1">
 
   <Hotel Rating="4.2">
     <Name>Westin</Name>
