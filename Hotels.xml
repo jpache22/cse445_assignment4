@@ -4,7 +4,7 @@
     <Name>Airport Inn</Name>
     <Phone>+1 208-384-5000</Phone>
     <Phone>+1 208-384-5566</Phone>
-    <Address _NearestAirport="BOI">
+    <Address _NearstAirport="BOI">
       <Number>2660</Number>
       <Street>W Airport Way</Street>
       <City>Boise</City>
@@ -17,7 +17,7 @@
     <Name>Quality Inn San Jose Airport/Silicon Valley</Name>
     <Phone>+1 408-434-9330</Phone>
     <Phone>+1 877-424-6423</Phone>
-    <Address _NearestAirport="SJC">
+    <Address _NearstAirport="SJC">
       <Number>2390</Number>
       <Street>Harris Way</Street>
       <City>San Jose</City>
@@ -29,7 +29,7 @@
   <Hotel _Rating="3.8">
     <Name>Albany Airport Inn</Name>
     <Phone>+1 518-458-1000</Phone>
-    <Address _NearestAirport="ALB">
+    <Address _NearstAirport="ALB">
       <Number>200</Number>
       <Street>Wolf Rd</Street>
       <City>Albany</City>
@@ -42,7 +42,7 @@
     <Name>Oakland Airport Executive Hotel</Name>
     <Phone>+1 510-635-5300</Phone>
     <Phone>+1 510-639-9050</Phone>
-    <Address _NearestAirport="OAK">
+    <Address _NearstAirport="OAK">
       <Number>150</Number>
       <Street>Hegenberger Road</Street>
       <City>Oakland</City>
@@ -55,7 +55,7 @@
     <Name>Hotel Aeropuerto Los Cabos</Name>
     <Phone>+52 624-173-9840</Phone>
     <Phone>+52 624-220-2403</Phone>
-    <Address _NearestAirport="SJD">
+    <Address _NearstAirport="SJD">
       <Number>14C</Number>
       <Street>Acceso Al Aeropuerto</Street>
       <City>San José del Cabo</City>
@@ -68,7 +68,7 @@
     <Name>Best Western Plus Newark Airport West</Name>
     <Phone>+1 973-621-6200</Phone>
     <Phone>+1 877-442-0992</Phone>
-    <Address _NearestAirport="EWR">
+    <Address _NearstAirport="EWR">
       <Number>101</Number>
       <Street>International Way</Street>
       <City>Newark</City>
@@ -81,7 +81,7 @@
     <Name>Quality Inn &amp; Suites Los Angeles Airport LAX</Name>
     <Phone>+1 310-671-7213</Phone>
     <Phone>+1 833-714-7733</Phone>
-    <Address _NearestAirport="LAX">
+    <Address _NearstAirport="LAX">
       <Number>4922</Number>
       <Street>W Century Blvd</Street>
       <City>Inglewood</City>
@@ -93,7 +93,7 @@
   <Hotel _Rating="4.1">
     <Name>Hilton Tampa Airport Westshore</Name>
     <Phone>+1 813-877-6688</Phone>
-    <Address _NearestAirport="TPA">
+    <Address _NearstAirport="TPA">
       <Number>2225</Number>
       <Street>N Lois Ave</Street>
       <City>Tampa</City>
@@ -105,7 +105,7 @@
   <Hotel _Rating="4.0">
     <Name>Hilton Garden Inn Atlanta Airport North</Name>
     <Phone>+1 404-477-6600</Phone>
-    <Address _NearestAirport="ATL">
+    <Address _NearstAirport="ATL">
       <Number>3437</Number>
       <Street>Bobby Brown Parkway</Street>
       <City>Atlanta</City>
@@ -117,7 +117,7 @@
   <Hotel _Rating="4.3">
     <Name>Hilton Garden Inn Milwaukee Airport</Name>
     <Phone>+1 414-481-8280</Phone>
-    <Address _NearestAirport="MKE">
+    <Address _NearstAirport="MKE">
       <Number>5890</Number>
       <Street>S Howell Avenue</Street>
       <City>Milwaukee</City>
