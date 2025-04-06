@@ -1,4 +1,4 @@
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jpache22.github.io/cse445_assignment4">
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jpache22.github.io/cse445_assignment4/Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Name>Westin</Name>
