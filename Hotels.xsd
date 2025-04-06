@@ -8,6 +8,9 @@
             <xs:sequence>
               <xs:element name="Name" type="xs:string"/>
               <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                <xsd:restriction base="xsd:string">
+                  <xsd:pattern value="\d{3}-\d{3}-\d{4}"/>
+                </xsd:restriction>
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -17,11 +20,11 @@
                     <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
                     <xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
                   </xs:sequence>
-                  <xs:element name="NearstAirport" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                  <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:element name="Rating" type="xsd:float" minOccurs="0" maxOccurs="1"/>
+            <xs:attribute name="Rating" type="xsd:float" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
