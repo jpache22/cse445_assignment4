@@ -1,0 +1,128 @@
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel _Rating="3.5">
+    <Name>Airport Inn</Name>
+    <Phone>+1 208-384-5000</Phone>
+    <Phone>+1 208-384-5566</Phone>
+    <Address>
+      <Number>2660</Number>
+      <Street>W Airport Way</Street>
+      <City>Boise</City>
+      <State>ID</State>
+      <Zip>83705</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="4.0">
+    <Name>Quality Inn San Jose Airport/Silicon Valley</Name>
+    <Phone>+1 408-434-9330</Phone>
+    <Phone>+1 877-424-6423</Phone>
+    <Address _NearestAirport="SJC">
+      <Number>2390</Number>
+      <Street>Harris Way</Street>
+      <City>San Jose</City>
+      <State>CA</State>
+      <Zip>95131</Zip>
+  </Hotel>
+
+  <Hotel +Rating="3.8">
+    <Name>Albany Airport Inn</Name>
+    <Name>Albany Airport Hotel</Name>
+    <Address _NearestAirport="ALB">
+      <Number>200</Number>
+      <Street>Wolf Rd</Street>
+      <City>Albany</City>
+      <State>NY</State>
+      <Zip>12205</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="4.2">
+    <Name>Oakland Airport Executive Hotel</Name>
+    <Phone>+1 510-635-5300</Phone>
+    <Phone>+1 510-639-9050</Phone>
+    <Address _NearestAirport="OAK">
+      <Number>150</Number>
+      <Street>Hegenberger Road</Street>
+      <City>Oakland</City>
+      <State>CA</State>
+      <Zip>94621</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="4.0">
+    <Name>Hotel Aeropuerto Los Cabos</Name>
+    <Phone>+52 624-173-9840</Phone>
+    <Phone>+52 624-220-2403</Phone>
+    <Address _NearestAirport="SJD">
+      <Number>14C</Number>
+      <Street>Acceso Al Aeropuerto</Street>
+      <City>San José del Cabo</City>
+      <State>BCS</State>
+      <Zip>23420</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="3.9">
+    <Name>Best Western Plus Newark Airport West</Name>
+    <Phone>+1 973-621-6200</Phone>
+    <Phone>+1 877-442-0992</Phone>
+    <Address _NearestAirport="EWR">
+      <Number>101</Number>
+      <Street>International Way</Street>
+      <City>Newark</City>
+      <State>NJ</State>
+      <Zip>07114</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="3.7">
+    <Name>Quality Inn &amp; Suites Los Angeles Airport LAX</Name>
+    <Phone>+1 310-671-7213</Phone>
+    <Phone>+1 833-714-7733</Phone>
+    <Address _NearestAirport="LAX">
+      <Number>4922</Number>
+      <Street>W Century Blvd</Street>
+      <City>Inglewood</City>
+      <State>CA</State>
+      <Zip>90304</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="4.1">
+    <Name>Hilton Tampa Airport Westshore</Name>
+    <Phone>+1 813-877-6688</Phone>
+    <Address _NearestAirport="TPA">
+      <Number>2225</Number>
+      <Street>N Lois Ave</Street>
+      <City>Tampa</City>
+      <State>FL</State>
+      <Zip>33607</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="4.0">
+    <Name>Hilton Garden Inn Atlanta Airport North</Name>
+    <Phone>+1 404-477-6600</Phone>
+    <Address _NearestAirport="ATL">
+      <Number>3437</Number>
+      <Street>Bobby Brown Parkway</Street>
+      <City>Atlanta</City>
+      <State>GA</State>
+      <Zip>30344</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel _Rating="4.3">
+    <Name>Hilton Garden Inn Milwaukee Airport</Name>
+    <Phone>+1 414-481-8280</Phone>
+    <Address _NearestAirport="MKE">
+      <Number>5890</Number>
+      <Street>S Howell Avenue</Street>
+      <City>Milwaukee</City>
+      <State>WI</State>
+      <Zip>53207</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
